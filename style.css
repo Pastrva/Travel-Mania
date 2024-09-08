@@ -1,0 +1,327 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  overflow-x: hidden;
+}
+
+.footer {
+  overflow-y: hidden;
+}
+
+.Naslovnica {
+  height: 100vmin;
+  width: 100%;
+  background-image: url(slike/Risnjak2.jpg);
+  background-position: center;
+  background-size: cover;
+  animation: change 20s infinite ease-in-out;
+  animation-iteration-count: 3;
+  overflow: hidden;
+  margin: 0px;
+}
+@keyframes change {
+  0% {
+    background-image: url(slike/Dubai.jpg);
+  }
+  20% {
+    background-image: url(slike/Paris.jpg);
+  }
+  40% {
+    background-image: url(slike/Dubrovnik.jpg);
+  }
+  60% {
+    background-image: url(slike/Amsterdam.jpg);
+  }
+  80% {
+    background-image: url(slike/Brijuni.jpg);
+  }
+  100% {
+    background-image: url(slike/NewYork.jpeg);
+  }
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 550;
+  border: solid olivedrab 2px;
+}
+.nav-link {
+  flex: 1;
+  text-align: right;
+}
+.nav-link ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+.nav-link ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+.text {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  position: inherit;
+  padding-top: 25%;
+  font-style: italic;
+}
+.Putovanja {
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.Priroda p {
+  text-align: center;
+  font-style: italic;
+}
+.text button {
+  background-color: darkolivegreen;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+  display: inline-block;
+  padding: 20px 32px;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+}
+.Pokloni p {
+  text-align: center;
+}
+button a:link {
+  text-decoration: none;
+  color: white;
+}
+button:hover {
+  color: #fff;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: #fff;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+section {
+  width: 80%;
+  margin: auto;
+}
+hr {
+  width: 100%;
+  size: 16px;
+  align-items: center;
+}
+.naslov {
+  text-align: center;
+}
+.row {
+  display: flex;
+  border-radius: 20px;
+}
+.naslov p {
+  font-style: italic;
+  font-size: 20px;
+  padding: 40px;
+}
+.contact {
+  width: 100%;
+  height: 150px;
+  padding: 20px 80px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(39, 205, 97, 1) 82%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin: 0;
+  background-image: url(slike/proba.png);
+  position: absolute;
+  display: flex;
+}
+h4 {
+  color: #fff;
+  font-size: 20px;
+}
+img {
+  transition: transform 0.3 ease;
+}
+img:hover {
+  transform: scale(1.1);
+}
+.contact p {
+  padding: 0;
+}
+.contact p i {
+  padding: 0;
+}
+.contact form button {
+  text-align: center;
+  background-color: darkolivegreen;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+  display: inline-block;
+  color: white;
+  border-radius: 20p;
+}
+.Nature {
+  text-align: center;
+}
+.Nature h1 {
+  margin: 0;
+  padding-bottom: 30px;
+}
+.Nature {
+  font-style: italic;
+  font-size: 20px;
+}
+.onama {
+  text-align: center;
+}
+.onama p {
+  font-size: 20px;
+  font-style: normal;
+  padding-bottom: 30px;
+}
+.Galerija h1 {
+  text-align: center;
+}
+.Pokloni {
+  font-size: 2opx;
+  font-style: normal;
+  padding-bottom: 30px;
+}
+.Pokloni h1 {
+  text-align: center;
+}
+.Pokloni button {
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  font-weight: 900;
+  background-color: white;
+  color: black;
+}
+
+.btn:hover {
+  transition: 1000ms;
+  padding: 10px 50px;
+  background-color: #fff;
+  color: #0066cc;
+  border: solid 2px #0066cc;
+}
+.Pokloni p {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+}
+.container {
+  padding: 2px 16px;
+}
+.card {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: inline-block;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card p {
+  font-size: 20px;
+  font-style: normal;
+}
+.card button {
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  font-weight: 900;
+  background-color: white;
+  color: black;
+}
+.card img {
+  width: 100%;
+}
+.Kontakt .container {
+  width: 80%;
+  margin: 50px auto;
+}
+.req {
+  padding: 30px 50px;
+  flex-basis: 50%;
+}
+h1 {
+  margin-bottom: 10px;
+}
+.input {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+.box {
+  border: solid black 2px;
+}
+.box button {
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  font-weight: 900;
+  background-color: white;
+  color: black;
+}
+.Travel .card button a {
+  color: black;
+  background-color: transparent;
+}
+.Travel .card button a:hover {
+  background-color: #4caf50;
+  display: block;
+  width: 100%;
+}
+.put .container .box .req {
+  width: 50%;
+  resize: vertical;
+  margin: 30px auto;
+}
+.put .container .box .req button {
+  color: white;
+  background-color: wheat;
+  font-style: normal;
+}
+.put p {
+  font-size: 20px;
+  text-align: left;
+  font-style: normal;
+  border: solid black 2px;
+  padding: 30px 30px;
+}
+.Kontakt .button {
+  background-color: wheat;
+  color: black;
+}
+
+.slika {
+  width: 100%;
+  height: 40%;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
